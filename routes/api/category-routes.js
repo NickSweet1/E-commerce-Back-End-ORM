@@ -24,6 +24,7 @@ router.get('/:id', async (req, res) => {
   if (!categoryById) {
     return res.status(404).json({ message: 'Category does not exist'});
   }
+
   res.json(categoryById);
   } 
 );
@@ -51,14 +52,18 @@ router.put('/:id', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
+  try {
   await Category.destroy({
     where: {
       id: req.params.id,
     }
   })
   .then((deletedCategory) => {
-    res.json(deletedCategory);
+    res.status(200).json({ message: 'Category sucessfully deleted.'});
   })
+} catch {
+  res.status(500).json({ message: 'There was an error deleting the category.'})
+}
 });
 
 module.exports = router;
