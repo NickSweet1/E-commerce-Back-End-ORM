@@ -16,8 +16,7 @@
   This project takes a data base and allows the user to view the data, add data, or delete date to three different tables through insomnia. 
 
   ## Installation<a name="installation"></a>
-  Please run 'npm install' in the terminal to install all of the necessary libraries. Also be sure to include a .env file with your personal information following the format in the .env.example file. Please see the       
-  instructional video for information on how to download the database and load the seeds into it. 
+  Please run 'npm install' in the terminal to install all of the necessary libraries. Also be sure to include a .env file with your personal information following the format in the .env.example file. Please see the instructional video for information on how to download the database and load the seeds into it. 
 
   ## Usage<a name="usage"></a> 
   To use, please reference this [instructional video](https://drive.google.com/file/d/1c8e9gAPTgNxNwsqJd8lz8eP8aDP9iQ9g/view) View, add, update, and delete information as you please! 
