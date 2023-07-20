@@ -19,7 +19,7 @@
   No installations needed if running through web browser. If using vs code or similar, please use npm i to install all of the needed libraries. 
 
   ## Usage<a name="usage"></a> 
-  To use, please visit the heroku link and enter different html links to see each list. You can also put data in to what it become added to or removed from the data base. 
+  To use, please reference this [instructional video](https://drive.google.com/file/d/1c8e9gAPTgNxNwsqJd8lz8eP8aDP9iQ9g/view) View, add, update, and delete information as you please! 
 
   ## Tests<a name="tests"></a>
   No testing has been implemented. 
